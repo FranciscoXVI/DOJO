@@ -63,6 +63,7 @@ export const CalculatorPage: React.FC<Props> = (props: Props) => {
           <div className={classes.barSpacer} />
         </div>
         <div className={classes.calculatorInnerContainer}>
+          <h1>Hola</h1>
           <div className={classes.scrollContainer}>
             <div className={classes.mainFoodItems}>
               {FOOD_ITEMS.map((item: FoodItem) => (
